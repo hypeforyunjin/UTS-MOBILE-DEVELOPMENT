@@ -6,7 +6,7 @@ class ProfilePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Profile'),
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: const Color.fromARGB(255, 255, 255, 255),
       ),
       body: Center(
         child: Padding(
@@ -16,17 +16,17 @@ class ProfilePage extends StatelessWidget {
           children: [
             const CircleAvatar(
               radius: 50,
-              backgroundColor: Colors.blueAccent,
+              backgroundColor: Color.fromARGB(255, 0, 0, 0),
               child: Icon(Icons.person, size: 80, color: Colors.white),
             ),
             const SizedBox(height: 20),
             const Text(
-              'Nama Pengguna',
+              'NISSA SERENA PRIMADANI',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 10),
             const Text(
-              'email@example.com',
+              'seynaa@gmail.com',
               style: TextStyle(fontSize: 16, color: Colors.grey),
             ),
             const SizedBox(height: 40),
